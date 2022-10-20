@@ -47,21 +47,7 @@ p, h1 {font-family: "Mistery Quest", cursive; font-size: 1.1em;}
 }
 
 
-.df-nav{
-    display: flex;
-    text-align: center;
-    flex-direction: row-reverse;
-    align-items: center;
-    list-style: none;
-    background-color:  rgb(209, 224, 224);
-    border-radius: 40px;
-}
 
-.df-nav li{
-    padding: 20px 50px;
-    font-weight: bolder;
-    color: rgb(50, 7, 90);
-}
 
 
 header a:hover{
@@ -101,6 +87,7 @@ header a:hover{
 
 .card-index:hover{
     transform: translateY(-15px);
+    box-shadow: rgb(245, 241, 241) 2rem;
 }
 
 
@@ -175,8 +162,8 @@ header a:hover{
 }
 
 .iframes iframe{
-    width="380";
-    height="180";
+    width:"380";
+    height:"180";
    
 }
 /*---fin Novedades----*/
@@ -395,3 +382,17 @@ header a:hover{
     transition: all 1s ease;
 }
 /*-------fin de footer----*/
+
+/*-------media query----*/
+
+@media screen and (max-width:966px){
+    .df-nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
