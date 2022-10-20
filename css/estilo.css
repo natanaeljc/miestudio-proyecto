@@ -176,15 +176,12 @@ header a:hover{
 /*------pages/ nosotros----*/
 .container{
    display: flex;
-   flex-direction: column;
-   padding: 40px;
    align-items: center;
-}
-.img-container{
-    background-image: url(../media/perfil-imagen2.png); 
-    background-repeat: no-repeat;
-    padding: 0px;
-    background-position: center;    
+   justify-content: center;
+   background: url(../media/perfil-imagen2.png); 
+   
+   background-repeat: no-repeat;
+   background-position: center;    
 }
 
 .texto{
