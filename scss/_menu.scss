@@ -1,0 +1,45 @@
+/*-------logo - menu nav----*/
+.logo-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(50, 7, 90);
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.logo{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo p{
+    margin: 20px;
+    font-family: 'Lato', sans-serif; 
+}
+
+
+.df-nav{
+    display: flex;
+    text-align: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    list-style: none;
+    background-color:  rgb(209, 224, 224);
+    border-radius: 40px;
+}
+
+.df-nav li{
+    padding: 20px 50px;
+    font-weight: bolder;
+    color: rgb(50, 7, 90);
+}
+
+
+header a:hover{
+    color: rgb(194, 177, 81);
+}
+/*-------fin logo menu - nav----*/
