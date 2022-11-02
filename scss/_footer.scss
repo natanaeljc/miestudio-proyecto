@@ -1,0 +1,28 @@
+
+/*-------footer----*/
+
+.footer{
+    padding: 15px;
+    height: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer p{
+    margin: 4px;
+    padding: 12px;
+    color: rgb(100,100,100);
+    font-size: medium;
+}
+
+.redes a i{
+   font-size: 25px;
+    margin-top: 4;
+    padding: 20px 15px;    
+}
+.redes a i:hover{
+    transform: scale(1.5);
+    transition: all 1s ease;
+}
+/*-------fin de footer----*/
