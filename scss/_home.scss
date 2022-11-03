@@ -2,7 +2,7 @@
 
   .df-main{
     padding: 80px;
-    max-width: 1200;
+    max-width: 1200px;
     margin-bottom: 1px;
     display: flex;
     flex-direction: row; 
@@ -77,7 +77,7 @@
 .novedades{
     border-color: rgb(235, 217, 217);
     border-style: double;
-    max-width: 1200;
+    max-width: 1200px;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -97,8 +97,8 @@
 }
 
 .iframes iframe{
-    width:"380";
-    height:"180";
+    width: 380px;
+    height: 180px;
    
 }
 /*---fin Novedades----*/
