@@ -1,0 +1,47 @@
+/*------pages/ contacto----*/
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contacto-grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas: 
+    "diosa diosa listacontacto listacontacto"
+    "diosa diosa googlemap googlemap";
+    grid-template-columns: minmax (200px, 500px) 1fr 1fr;
+    grid-column-gap: 80px;
+  
+}
+
+.diosa{
+    grid-area: diosa;
+}
+.listacontacto{
+    grid-area: listacontacto;
+}
+.googlemap{
+    grid-area: googlemap;
+
+}
+
+
+.listacontacto{
+    margin: 80px;
+    line-height: 50px;    
+}
+
+.listacontacto ul{
+    list-style: none;
+}
+.listacontacto img{
+    width: 25px;
+}
+
+
+
+/*------fin pages/ contacto----*/
