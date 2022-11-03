@@ -1,0 +1,26 @@
+.min-height{
+    min-height: 80vh;
+}
+
+/*------boton de ir arriba----*/
+.ir-arriba{
+    padding: 10px 30px;
+    display: flex;  
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(72, 100, 100);
+}
+
+.ir-arriba a{
+    background-color: white;
+    padding: 2px 25px;
+    border-color: transparent;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.ir-arriba a:hover{
+    background-color: rgb(194, 177, 81);
+    
+}
+/*----fin boton de ir arriba---*/

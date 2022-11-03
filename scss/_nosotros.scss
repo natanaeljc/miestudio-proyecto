@@ -1,0 +1,41 @@
+/*------pages/ nosotros----*/
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+ }
+ .img-container{
+     background-image: url(../media/perfil-imagen2.png); 
+     background-repeat: no-repeat;
+     padding: 0px;
+     background-position: center;    
+ }
+ 
+ .texto{
+     color: rgb(194, 177, 81);
+     text-align: center;
+     text-shadow: 1;
+     padding: 10px;    
+     line-height: 30px;
+     
+ }
+
+ 
+.frasefil{
+    padding: 10px;
+    text-align: center;
+    background-color:  rgb(209, 224, 224);
+    margin: 2px;
+    font-size: small;
+    font-weight: 800;  
+    line-height:  20px;
+    text-justify: distribute;
+    color: rgb(100,100,100);
+   
+
+
+}
+
+
+ /*-------fin   pages/nostros----*/
